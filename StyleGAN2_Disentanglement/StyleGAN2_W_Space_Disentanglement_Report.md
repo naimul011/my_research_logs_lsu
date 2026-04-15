@@ -397,9 +397,14 @@ The slow decay (compare to $\mathcal{Z}$'s Gaussian structure which has flat spe
 
 **PC traversals — what each principal component controls:**
 
-| PC0 traversal (α = −3 → +3) | PC1 traversal | PC2 traversal |
-|---|---|---|
-| ![PC0](figures/pc00_traversal.jpg) | ![PC1](figures/pc01_traversal.jpg) | ![PC2](figures/pc02_traversal.jpg) |
+**PC0 traversal (α = −3 → +3)**  
+![PC0](figures/pc00_traversal.jpg)
+
+**PC1 traversal**  
+![PC1](figures/pc01_traversal.jpg)
+
+**PC2 traversal**  
+![PC2](figures/pc02_traversal.jpg)
 
 *PC0: age/gender axis. PC1: lateral yaw rotation. PC2: face width / jaw shape. Each traversal changes one attribute while others remain stable — evidence of disentanglement.*
 
@@ -427,13 +432,17 @@ The spectral gap at $d = 49$ (ratio 30.6×) indicates a **natural boundary** in 
 
 **Traversals along top identity directions and their ArcFace similarity curves:**
 
-| Direction 0 traversal | Direction 1 traversal |
-|---|---|
-| ![ID Dir 0](figures/id_dir00_traversal.jpg) | ![ID Dir 1](figures/id_dir01_traversal.jpg) |
+**Direction 0 traversal**  
+![ID Dir 0](figures/id_dir00_traversal.jpg)
 
-| Direction 0 similarity curve | Direction 1 similarity curve |
-|---|---|
-| ![ID Curve 0](figures/id_dir00_sim_curve.png) | ![ID Curve 1](figures/id_dir01_sim_curve.png) |
+**Direction 1 traversal**  
+![ID Dir 1](figures/id_dir01_traversal.jpg)
+
+**Direction 0 similarity curve**  
+![ID Curve 0](figures/id_dir00_sim_curve.png)
+
+**Direction 1 similarity curve**  
+![ID Curve 1](figures/id_dir01_sim_curve.png)
 
 *Similarity curves show ArcFace cosine sim vs. traversal step α. The rapid drop away from α=0 confirms these directions directly control identity-discriminative features.*
 
